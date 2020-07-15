@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.appBar{
+    background-color: #16a085!important;
+          color: 'white';
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0px 0px 0px 0px !important;
+}
+.title{
+    font-family: 'Righteous', cursive !important;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+}
+@media (max-width: 800px){
+    .title{
+        font-size: 1rem;
+    }
+   
+}
