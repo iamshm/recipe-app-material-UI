@@ -6,8 +6,8 @@ import cx from 'classnames';
 import { Grid } from '@material-ui/core';
 
 const App = () => {
-  const API_ID = "54b0f32d";
-  const API_KEY = "ca2a365875ec5c0a29444f0a2acd08e0";
+  const API_ID = "YOUR_API_ID";
+  const API_KEY = "YOUR_API_KEY";
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
